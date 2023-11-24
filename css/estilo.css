@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #F3F3F3;
+    
 }
 
 
@@ -10,7 +12,7 @@ body {
 }
 
 .encabezado {
-    background-color: #FFF2D8;
+    background-color: #E0F4FF;
     color: white;
 }
 
@@ -21,28 +23,28 @@ body {
 }
 
 .fuentesNav a:hover {
-    background-color: rgba(199, 199, 199, 0.726);
-    color: bisque;
+    background-color: #583D0C;
+    color: #E0F4FF;
 }
 
 .fuenteMenu {
-    background-color: bisque;
+    background-color: #E0F4FF;
 }
 
 .navInicio a:hover {
-    background-color: rgba(199, 199, 199, 0.726);
-    color: bisque;
+    background-color:#583D0C;
+    color:#583D0C ;
 }
 
 /* BANNER PRODUCTOS */
 
 .tituloProductos {
-    background-color: #FFF2D8;
-    color: black;
+    background-color: #E0F4FF;
+    color: #583D0C;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 16px;
+    padding: 5px;
 }
 
 .imgIg {
@@ -58,7 +60,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px;
-    background-color: #FFF2D8;
+    background-color: #E0F4FF;
 }
 
 .iconos img {
@@ -69,13 +71,13 @@ body {
 
 .linkIg {
     text-decoration: none;
-    color: gray;
+    color: #583D0C;
 
 }
 
 .ig {
     margin: 0px 0px 0px 50px;
-    color: gray;
+    color: #583D0C;
 }
 
 /* ----------------------- */
@@ -160,58 +162,154 @@ main img {
 
 /* ESTILO A PRODUCTOS */
 
-.img1 {
-    width: 100%;
-    height: 300px;
-    object-fit: contain;
-    margin-top: 10px;
+.productos {
+    border: 1px solid white;
+    background-color: #583D0C;
+    color: #E0F4FF ;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border-radius: 15px; 
 }
 
-.img2 {
-    width: 100%;
-    height: 300px;
-    object-fit: contain;
-    margin-top: 10px;
+
+.fuenteP {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-.img3 {
-    width: 100%;
-    height: 300px;
-    object-fit: contain;
-    margin-top: 10px;
+.tituloBanner{
+    color: #583D0C;
 }
 
-.img4 {
-    width: 100%;
-    height: 300px;
-    object-fit: contain;
-    margin-top: 10px;
+.boton {
+    color: #583D0C;
+    border-radius: #583D0C;
 }
 
-.img5 {
+/* pag-Principal */
+.gridCardPs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    gap: 20px; }
+  
+  .precio {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem; }
+
+
+.card {
     width: 100%;
-    height: 300px;
-    object-fit: contain;
-    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  
+  .fotoCard {
+    width: 100%;
+    height: 100%; }
+  
+  h3 {
+  padding: 10px;
+  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase; }
+  
+  .parrafoCard {
+    padding: 20px;
+    font-size: 1.3rem; }
+  
+  .btnCard {
+    color:white ;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #583D0C;
+    padding: 10px 20px;
+    border-radius: 15px; }
+
+.columna {
+    border: 1px 2px 2px 1px;
+
 }
 
-.img6 {
+.imagenesC {
     width: 100%;
-    height: 300px;
-    object-fit: contain;
-    margin-top: 10px;
+    height: 100%;
 }
 
-.img7 {
-    width: 100%;
-    height: 300px;
-    object-fit: contain;
-    margin-top: 10px;
-}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    margin-top: 50px; }
 
-.img8 {
-    width: 100%;
-    height: 300px;
-    object-fit: contain;
-    margin-top: 10px;
-}
+
+    /* MEDIA QUERIES */
+    
+    @media (max-width: 768px) {
+
+        .carrousel {
+            display: none;
+        }
+
+
+        h1 {
+            font-size: 1.5rem;
+        }
+    
+        h2 {
+            font-size: 1.2rem;
+        }
+    
+        p {
+            font-size: 1rem;
+        }
+    
+        .logo {
+            width: 150px;
+            height: 35px;
+        }
+    
+        main {
+            padding: 20% 5%;
+        }
+    
+        .link {
+            width: 40vw;
+            left: 25vw;
+            padding: 15px;
+        }
+    
+        .gridFotos {
+            gap: 10px;
+        }
+    
+        footer {
+            padding-top: 5vh;
+        }
+    
+        .navFt li {
+            display: block;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        
+        strong{
+            font-size: 1.5rem;
+        }
+    
+        .banner{
+            margin-bottom: 80vh;
+        }
+        .gridCardPs{
+            grid-template-columns: repeat(1,1fr);
+        }
+    }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
+    <title>ThirteenAccesories</title>
     <!-- CSS BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -17,7 +17,7 @@
     <header class="navbar navbar-expand-lg encabezado">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img class="tamLogo" src="./imagenes/logo.jpg" alt="">
+                <img class="tamLogo" src="./imagenes/logothirteen.jpg" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -49,103 +49,93 @@
 
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="search">
+                    <button class="btn btn-outline-success boton" type="submit">Buscar</button>
                 </form>
             </nav>
         </div>
     </header>
 
     <!-- BANNER PRODUCTOS -->
-    <div class="tituloProductos mt-3">
-        <h2> Thirteen Accesories</h2>
+    <div class="tituloProductos mt-1">
+        <h2 class="tituloBanner"> Thirteen Accesories</h2>
         <hr>
     </div>
 
 
+    <!-- CARROUSEL INDEX -->
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide w-50 m-auto carrousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner mb-2 mt-5 ">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img class="imagenesC" src="/imagenes/carrousel.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Pulseras Esclavas Plata</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img class="imagenesC" src="/imagenes/carrousel2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="imagenesC" src="/imagenes/carrousel3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     <!-- CARDS CON NUESTROS PRODUCTOS  -->
-    <div class="row m-3 ">
 
-        <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
-            <img class="img1" src="./imagenes/img1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-title"> Cadena con dije de corazón tornasolado</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-outline-success">Comprar</a>
+    <section id="mainPs">
+
+        <h2> Destacados </h2>
+
+        <section class="gridCardPs">
+            <div class="card">
+                <img src="/imagenes/img3.jpeg" alt="imagen del obelisco" class="fotoCard">
+                <h3>Cadena con dije de luna lisa</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p class="precio">$32.000</p>
+                <a href="#" class="btnCard">Comprar</a>
             </div>
-        </div>
-
-        <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
-            <img class="img2" src="./imagenes/img2.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-title"> Cadena finita con dije circulo strass</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-outline-success">Comprar</a>
+            <div class="card">
+                <img src="/imagenes/img2.jpeg" alt="imagen de las cataratas del iguazu" class="fotoCard">
+                <h3>Cadena finita con dije circulo strass</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p class="precio">$50.000</p>
+                <a href="#" class="btnCard">Comprar</a>
             </div>
-        </div>
-
-        <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
-            <img class="img3" src="./imagenes/img3.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-title"> Cadena con dije de luna lisa</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-outline-success">Comprar</a>
+            <div class="card">
+                <img src="/imagenes/img1.jpg" alt="imagen del puente del inca" class="fotoCard">
+                <h3>Cadena con dije tornasolado</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p class="precio">$40.000</p>
+                <a href="#" class="btnCard">Comprar</a>
             </div>
-        </div>
 
-        <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
-            <img class="img4" src="./imagenes/img4.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-title"> Pulsera trenzada combinada con dorado</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-outline-success">Comprar</a>
-            </div>
-        </div>
-
-        <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
-            <img class="img5" src="./imagenes/img5.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-title"> Esclava hexagono con strass</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-outline-success">Comprar</a>
-            </div>
-        </div>
-
-        <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
-            <img class="img6" src="./imagenes/img6.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-title"> Anillo triangulo escalados</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-outline-success">Comprar</a>
-            </div>
-        </div>
-
-        <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
-            <img class="img7" src="./imagenes/img7.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-title"> Esclava doble triangulo</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-outline-success">Comprar</a>
-            </div>
-        </div>
-
-        <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
-            <img class="img8" src="./imagenes/img8.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-title"> Esclava doble corazon</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-outline-success">Comprar</a>
-            </div>
-        </div>
-
+        </section>
+    </section>
+   
     </div>
 
 
