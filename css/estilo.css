@@ -1,315 +1,292 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #F3F3F3;
-    
+  font-family: "Roboto", sans-serif;
+  background-color: #F3F3F3;
 }
 
-
 .tamLogo {
-    width: 150px;
+  width: 150px;
 }
 
 .encabezado {
-    background-color: #E0F4FF;
-    color: white;
+  background-color: #E0F4FF;
+  color: white;
 }
 
 .fuentesNav {
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .fuentesNav a:hover {
-    background-color: #583D0C;
-    color: #E0F4FF;
+  background-color: #583D0C;
+  color: #E0F4FF;
 }
 
 .fuenteMenu {
-    background-color: #E0F4FF;
+  background-color: #E0F4FF;
 }
 
 .navInicio a:hover {
-    background-color:#583D0C;
-    color:#583D0C ;
+  background-color: #583D0C;
+  color: #583D0C;
 }
 
 /* BANNER PRODUCTOS */
-
 .tituloProductos {
-    background-color: #E0F4FF;
-    color: #583D0C;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 5px;
+  background-color: #E0F4FF;
+  color: #583D0C;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
 }
 
 .imgIg {
-    width: 50px;
+  width: 50px;
 }
 
 /* ------------------------- */
 /* ESTILOS DEL FOOTER        */
 /* ------------------------- */
-
 .pie {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px;
-    background-color: #E0F4FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  background-color: #E0F4FF;
 }
 
 .iconos img {
-    width: 45px;
-    margin: 0px 0px 0px 0px;
+  width: 45px;
+  margin: 0px 0px 0px 0px;
 }
 
-
 .linkIg {
-    text-decoration: none;
-    color: #583D0C;
-
+  text-decoration: none;
+  color: #583D0C;
 }
 
 .ig {
-    margin: 0px 0px 0px 50px;
-    color: #583D0C;
+  margin: 0px 0px 0px 50px;
+  color: #583D0C;
 }
 
 /* ----------------------- */
 /* FORMULARIO DE CONTACTO */
 /* ----------------------- */
-
 form {
-    margin: 50px 100px;
+  margin: 50px 100px;
 }
-
 
 /* -------------------------- */
 /* Estilos a preguntas frecuentes */
 /* ----------------------------- */
-
 main h2 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
-    font-size: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 40px;
 }
 
 main h3 {
-    text-align: justify;
-    margin: 0px 80px;
-    color: gray;
-    font-size: 30px;
-    padding: 10px;
+  text-align: justify;
+  margin: 0px 80px;
+  color: gray;
+  font-size: 30px;
+  padding: 10px;
 }
 
-
 main h6 {
-    text-align: justify;
-    margin: 0px 80px;
-    color: gray;
-    font-size: 20px;
-    padding: 10px;
+  text-align: justify;
+  margin: 0px 80px;
+  color: gray;
+  font-size: 20px;
+  padding: 10px;
 }
 
 main p {
-    text-align: justify;
-    margin: 0px 80px;
-    color: gray;
-    font-size: 15px;
-    padding: 10px;
-
+  text-align: justify;
+  margin: 0px 80px;
+  color: gray;
+  font-size: 15px;
+  padding: 10px;
 }
 
 main img {
-    margin: 0px 80px;
-    padding: 10px;
-    width: 200px;
+  margin: 0px 80px;
+  padding: 10px;
+  width: 200px;
 }
 
 /* ------------------------- */
 /* ESTILOS A ¿QUIENES SOMOS? */
 /* ------------------------- */
-
 .quienesSomos {
-    font-size: 40px;
-    text-align: justify;
-    margin: 0px 80px;
-    padding: 10px;
-    color: gray;
+  font-size: 40px;
+  text-align: justify;
+  margin: 0px 80px;
+  padding: 10px;
+  color: gray;
 }
 
 .historia {
-    text-align: justify;
-    font-size: 20px;
-    margin: 0px 80px;
-    padding: 50px;
-    color: black;
-
+  text-align: justify;
+  font-size: 20px;
+  margin: 0px 80px;
+  padding: 50px;
+  color: black;
 }
 
 .formatoHistoria {
-    border: 2px black solid;
-    background-color: white;
-    padding: 2px;
-
+  border: 2px black solid;
+  background-color: white;
+  padding: 2px;
 }
 
 /* ESTILO A PRODUCTOS */
-
 .productos {
-    border: 1px solid white;
-    background-color: #583D0C;
-    color: #E0F4FF ;
-    font-family: 'Poppins', sans-serif;
-    padding: 10px 20px;
-    border-radius: 15px; 
+  border: 1px solid white;
+  background-color: #583D0C;
+  color: #E0F4FF;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 20px;
+  border-radius: 15px;
 }
-
 
 .fuenteP {
-    font-size: 20px;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.tituloBanner{
-    color: #583D0C;
+.tituloBanner {
+  color: #583D0C;
 }
 
 .boton {
-    color: #583D0C;
-    border-radius: #583D0C;
+  color: #583D0C;
+  border-radius: #583D0C;
 }
 
-/* pag-Principal */
+/* CARDS INDEX Y PRODUCTOS */
 .gridCardPs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0 10%;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    gap: 20px; }
-  
-  .precio {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 2rem; }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 10%;
+  margin-top: 5%;
+  margin-bottom: 15%;
+  gap: 20px;
+}
 
+.precio {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
 
 .card {
-    width: 100%;
-    background-color: #fff;
-    border-radius: 15px;
-    padding: 20px 15px;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-  
-  .fotoCard {
-    width: 100%;
-    height: 100%; }
-  
-  h3 {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px 15px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotoCard {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
   padding: 10px;
   font-size: 1.3rem;
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase; }
-  
-  .parrafoCard {
-    padding: 20px;
-    font-size: 1.3rem; }
-  
-  .btnCard {
-    color:white ;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    background-color: #583D0C;
-    padding: 10px 20px;
-    border-radius: 15px; }
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.parrafoCard {
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+.btnCard {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  background-color: #583D0C;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
 
 .columna {
-    border: 1px 2px 2px 1px;
-
+  border: 1px 2px 2px 1px;
 }
 
 .imagenesC {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 h2 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 1px;
-    margin-top: 50px; }
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+  margin-top: 50px;
+}
 
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .carrousel {
+    display: none;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .logo {
+    width: 150px;
+    height: 35px;
+  }
+  main {
+    padding: 20% 5%;
+  }
+  .link {
+    width: 40vw;
+    left: 25vw;
+    padding: 15px;
+  }
+  .gridFotos {
+    gap: 10px;
+  }
+  footer {
+    padding-top: 5vh;
+  }
+  .navFt li {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  strong {
+    font-size: 1.5rem;
+  }
+  .banner {
+    margin-bottom: 80vh;
+  }
+  .gridCardPs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
-    /* MEDIA QUERIES */
-    
-    @media (max-width: 768px) {
-
-        .carrousel {
-            display: none;
-        }
-
-
-        h1 {
-            font-size: 1.5rem;
-        }
-    
-        h2 {
-            font-size: 1.2rem;
-        }
-    
-        p {
-            font-size: 1rem;
-        }
-    
-        .logo {
-            width: 150px;
-            height: 35px;
-        }
-    
-        main {
-            padding: 20% 5%;
-        }
-    
-        .link {
-            width: 40vw;
-            left: 25vw;
-            padding: 15px;
-        }
-    
-        .gridFotos {
-            gap: 10px;
-        }
-    
-        footer {
-            padding-top: 5vh;
-        }
-    
-        .navFt li {
-            display: block;
-            padding-top: 20px;
-            padding-bottom: 10px;
-        }
-        
-        strong{
-            font-size: 1.5rem;
-        }
-    
-        .banner{
-            margin-bottom: 80vh;
-        }
-        .gridCardPs{
-            grid-template-columns: repeat(1,1fr);
-        }
-    }
+/*# sourceMappingURL=estilo.css.map */
